@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+}
+
+.hover-effect {
+  margin-left: 30px;
+}
+
+.hover-effect:hover {
+  background-color: #435cb5;
+  border-radius: 5px;
+}
+
+.effect:hover {
+  color: white !important;
+}
+
+.responsive {
+  width: 100%;
+}
+
+.responsives {
+  width: 60%;
+}
+
+.line-purple {
+  border-left: 3px solid #6d34e4;
+}
+
+.img {
+  display: block;
+  align-items: left;
+  justify-content: center;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1400px) {
+  .card {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .RENT {
+    font-size: 1.9rem !important;
+  }
+
+  .lead {
+    font-size: 1.2rem !important;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .RENT {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .mine {
+    text-align: center;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .RENT {
+    font-size: 1.5rem !important;
+  }
+
+  .lead {
+    font-size: 1.1rem !important;
+  }
+
+  .feline {
+    text-align: center !important;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+}
